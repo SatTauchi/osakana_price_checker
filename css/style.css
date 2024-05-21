@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #74fffd;
+}
+
+#header {
+    display: flex;
+    align-items: center; /* アイテムを垂直方向に中央揃え */
+    justify-content: center; /* アイテムを水平方向に中央揃え */
+    width: 100%; /* ヘッダーの幅を画面全体に広げる */
+    margin: 0 auto; /* 上下のマージンを0に、自動で左右中央揃え */
+    padding: 20px 0; /* 上下にパディングを追加 */
+}
+
+#logo {
+    width: 150px; /* ロゴのサイズ調整 */
+    height: auto; /* 高さを自動で調整 */
+    margin-right: 5px; /* h1との間隔 */
+}
+
+h1 {
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.input-area {
+    width: 80%;
+    height: 100%;
+    margin: 5px auto 30px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+select {
+    width: 100%;
+    display: block;
+    padding: 20px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    font-size: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    resize: none;
+    font-size: 20px;
+}
+
+.button-area {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.button-area button {
+    display: flex;
+    justify-content: center; /* 水平方向の中央揃え */
+    align-items: center; /* 垂直方向の中央揃え */
+    text-align: center;
+    text-decoration: none;
+    width: 48%;
+    height: 60px;
+    margin: auto;
+    padding: 0; /* paddingを0に設定してflexboxの中央揃えを正確に行う */
+    font-weight: bold;
+    border: 2px solid #27acd9;
+    color: #27acd9;
+    border-radius: 100vh;
+    transition: 0.5s;
+}
+
+footer {
+    margin-top: 30px;
+    border-top: 1px solid #ccc;
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+
+#list {
+    width: 90%;
+    margin: 50px auto;
+    font-size: 12px;
+}
+
+#list li {
+    font-size: 12px;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 10px;
+    margin: 0 auto;
+}
+
+#list li p {
+    margin: 10px 0;
+}
+
+.input-file{
+    height: 500px;
+    position: relative;
+}
+
+.preview {
+    background-image: url(/hoge.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+.input-file input[type="file"] {
+    opacity: 0;
+  }
+
+#imgFile{
+    font-size: 16px;
+    height: 300px;
+}
+
+#graph_area{
+    width: 100%;
+    height: 500px;
+}
+
+#graph {
+    width: 100%;
+    height: 400px;
+}
+
+#graph_title{
+    text-align: center;
+}
